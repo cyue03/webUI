@@ -28,33 +28,22 @@
                         <a href="#">用户管理</a>
                     </li><br />
                 </ul>
-                                <p>
-                                    <strong>
-                                    工位信息
-                                    </strong>
-                                </p>
-                                <p class="text-right">
-                                    <strong>
-                                    资源号：QWERT
-                                    </strong>
-                                    <button class="btn btn-primary" type="submit">刷新</button>
-                                </p>
-                                <p>
-                                    <strong>
-                                    工位操作
-                                    </strong>
-                                <br>
+                <div class="panel-group" id="panel-385734">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="panel-title" data-toggle="collapse" data-parent="#panel-385734"
+                                href="#panel-element-582792">电芯数据查询</a>
+                        </div>
+                        <div id="panel-element-582792" class="panel-collapse in">
+                            <div class="panel-body">
                                 <div class="form-group">
-                                    <label class="col-md-1 control-label">SFC:</label>
-                                    <input class="col-md-7" type="text" class="form-control" />
-                                    <div class="text-right"><button type="button" class="btn btn-outline-primary">开始</button>
-                                        <button type="button" class="btn btn-outline-primary">查询</button>
-                                        <button type="button" class="btn btn-outline-primary">完成</button>
-                                        <button type="button" class="btn btn-outline-primary">拆解</button>
-                                        <button type="button" class="btn btn-outline-primary">注销</button></div>
-                                </div>
+                                    <label class="col-md-1 control-label">电芯条码:</label>
+                                    <input class="col-md-6" type="text" class="form-control" />
+                                    <button type="button" class="btn btn-outline-primary">查询</button>
+                                    <button type="button" class="btn btn-outline-primary">导入数据</button>
+                                    <button type="button" class="btn btn-outline-primary">删除数据</button>
+                                    <button type="button" class="btn btn-outline-primary">刷新</button>
                                 </p>
-                                <p><strong>工位数据</strong></p>
                                 <table class="table table-condensed table-striped">
                                     <thead>
                                         <tr>
@@ -62,22 +51,16 @@
                                                 序号
                                             </th>
                                             <th>
-                                                工单号
+                                                电芯条码
                                             </th>
                                             <th>
-                                                资源号
+                                                绑定标识
                                             </th>
                                             <th>
-                                                PN
+                                                错误代码
                                             </th>
                                             <th>
-                                                SFC
-                                            </th>
-                                            <th>
-                                                工位号
-                                            </th>
-                                            <th>
-                                                状态
+                                                OCV电压
                                             </th>
                                         </tr>
                                     </thead>
@@ -96,13 +79,7 @@
                                                 Default
                                             </td>
                                             <td>
-
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-
+        
                                             </td>
                                         </tr>
                                         <tr class="success">
@@ -119,13 +96,7 @@
                                                 Approved
                                             </td>
                                             <td>
-
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-
+        
                                             </td>
                                         </tr>
                                         <tr class="error">
@@ -142,13 +113,7 @@
                                                 Declined
                                             </td>
                                             <td>
-
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-
+        
                                             </td>
                                         </tr>
                                         <tr class="warning">
@@ -165,13 +130,7 @@
                                                 Pending
                                             </td>
                                             <td>
-
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-
+        
                                             </td>
                                         </tr>
                                         <tr class="info">
@@ -188,13 +147,7 @@
                                                 Call in to confirm
                                             </td>
                                             <td>
-
-                                            </td>
-                                            <td>
-
-                                            </td>
-                                            <td>
-
+        
                                             </td>
                                         </tr>
                                     </tbody>
@@ -225,10 +178,20 @@
                             </div>
                         </div>
                     </div>
-                   
-                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-385734"
+                                href="#panel-element-321969">数据收集查询</a>
+                        </div>
+                        <div id="panel-element-321969" class="panel-collapse collapse">
+                            <div class="text-right">
+                                <button type="button" class="btn btn-outline-primary">导入数据</button>
+                                <button type="button" class="btn btn-outline-primary">删除数据</button>
+                                <button type="button" class="btn btn-outline-primary">刷新</button>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
     </div>
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
